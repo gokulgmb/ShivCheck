@@ -1,0 +1,2 @@
+echo "List of unexpected file types:\n" >> $2
+find $1 -type f \( -name \*.txt -o -name \*.pdf -o -name \*.exe -o -name \*.vbs -o -name \*.sh -o -name \*.mp4 -o -name \*.html -o -name \*.rtf -o -name \*.xls -o -name \*.scr -o -name \*.zip -o -name \*.mp3 -o -name \*.gz -o -name \*.arsc -o -name \*.prof -o -name \*.profm \) | cut -b 38-500 >> $2
