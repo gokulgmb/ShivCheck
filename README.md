@@ -1,0 +1,1 @@
+ShivCheck is a custom automation security tool for performing penetration tasks. This tool is verstaile and can be used to perform any custom mission with full integration to CI/CD pipeline. Release publication comming soon. 
